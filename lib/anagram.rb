@@ -5,6 +5,6 @@ class Anagram
   end   
   
   def word(word_arr)
-    %w(@word).sort == %w(some words) 
-    
+    %w(@word).sort == %w(word).sort
+   end  
 end   

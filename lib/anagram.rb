@@ -5,6 +5,7 @@ class Anagram
   end   
   
   def match(word_arr)
+    word_arr.select do |element|
     %w(@word).sort == %w(word).sort
    end  
 end   

@@ -4,7 +4,7 @@ class Anagram
     @word = word 
   end   
   
-  def word(word_arr)
+  def match(word_arr)
     %w(@word).sort == %w(word).sort
    end  
 end   

@@ -1,5 +1,6 @@
 class Anagram
   attr_accessor :word  
+  arr = []
   def initialize(word)
     @word = word 
   end   

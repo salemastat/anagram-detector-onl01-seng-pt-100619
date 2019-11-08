@@ -1,3 +1,3 @@
 class Anagram
-  attr_accessor :diaper 
+  attr_accessor :word  
 end   
